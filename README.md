@@ -1,0 +1,1 @@
+A simple Kill Aura script that when the button is toggled will turn green and create an area around you in which if another player walks into, will kill them even if your not looking directly at them.
