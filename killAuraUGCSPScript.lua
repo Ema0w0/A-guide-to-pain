@@ -209,7 +209,7 @@ KillAuraButton.MouseButton1Click:Connect(function()
         EnableKillAura()
     else
         KillAuraButton.Text = "Kill Aura"
-        KillAuraButton.BackgroundColor3 = Color3.fromRGB(15, 26, 107)
+        KillAuraButton.BackgroundColor3 = Color3.fromRGB(224, 109, 95)
         DisableKillAura()
     end
 end)
