@@ -110,11 +110,11 @@ CreditLabel.Parent = ContentFrame
 local KillAuraEnabled = false
 local RangePart = nil
 local HeartbeatConnection = nil
-local Range = 50 -- Range (in stud)
+local Range = 100 -- Range (in stud)
 
 -- Variable for rotation
 local BodyAngularVelocity = nil
-local SpinSpeed = 50 -- Rotation speed (rad/s, can be adjusted)
+local SpinSpeed = 25 -- Rotation speed (rad/s, can be adjusted)
 
 -- GUI close function
 CloseButton.MouseButton1Click:Connect(function()
@@ -204,7 +204,7 @@ end
 KillAuraButton.MouseButton1Click:Connect(function()
     KillAuraEnabled = not KillAuraEnabled
     if KillAuraEnabled then
-        KillAuraButton.Text = " (ON)"
+        KillAuraButton.Text = " (Active)"
         KillAuraButton.BackgroundColor3 = Color3.fromRGB(24, 186, 138)
         EnableKillAura()
     else
